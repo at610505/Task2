@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #df6d6d
+}
+
+.head {
+  color: darkblue;
+}
+
+#bglime {
+  background-color: lime;
+}
+
+#bglime>span {
+  color: red;
+}
+
+p {
+  color: white;
+}
+
+p>span {
+  color: black;
+  font-size: 2rem;
+}
+
+#para {
+  color: green;
+}
+
+ul li:first-of-type a{
+  background-color: lime;
+  color: green;
+}
+ul li:nth-of-type(2) a {
+  background-color: blue;
+  color: blue;
+}
+
+ol li:nth-child(2){
+  color: blue;
+}
+ol li:nth-child(3){
+  color: red;
+}
